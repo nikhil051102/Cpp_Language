@@ -4,7 +4,7 @@ using namespace std;
 // Documentation : https://www.cplusplus.com/reference/vector/vector/ 
 
 template <class T>
-void Display(vector<T> &v)
+void Display(vector<T> &v)     //Here, we have used & reference not simply v because simply v will create copy but &v will take reference only.
 {
     for (int i = 0; i < v.size(); i++)
     {
