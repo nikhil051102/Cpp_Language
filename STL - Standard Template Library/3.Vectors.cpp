@@ -19,6 +19,7 @@ int main()
     vector<char> vec2(10);               //10-element character vector.
     vector<char> vec3(vec2);            //vec3 is derived from vec2.
     vector<float> vec4(4, 3.4);         //3.4 will be printed 4 times.
+
     int n;
 
     cout<<"Size of Vector : ";
